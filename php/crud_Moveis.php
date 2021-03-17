@@ -87,6 +87,6 @@ function end_process()
 {
     global $conexao;
     $conexao->close_connection();
-    header("Location: ../Interface_Funcionário_Catálogo.php");
+    header("Location: ../interFun_cat.php");
     die();
 }

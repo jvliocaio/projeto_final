@@ -45,47 +45,55 @@
 
       <div class="menuopcoes">
         <ul>
-          <a href="Interface_Funcionário_Catálogo.php">
+          <a href="Interface_Cliente_Dados.html">
             <li>
               <i class="large material-icons">assignment_ind</i>
-              Catálogo
+              Usuário
             </a>
           </li>
         </ul>
         <ul>
-          <a href="Interface_Funcionário_Reservas.php">
-            <li id="selecionado">
-              <i class="large material-icons">dashboard</i>
-              Reserva
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <a href="Interface_Funcionário_Entrega.php">
+          <a href="Interface_Cliente_Carrinho.html">
             <li>
-              <i class="large material-icons">dashboard</i>
-              Entregas
+              <i class="large material-icons">shopping_cart</i>
+              Carrinho
             </a>
           </li>
         </ul>
         <ul>
-          <a href="Interface_Funcionário_Montagem.php">
-            <li>
-              <i class="large material-icons">dashboard</i>
-              Montagem
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <footer class="footer">
-        <a href="https://www.facebook.com/casamoveisvr/">
-          <i class="fa fa-facebook-square" style="font-size:24px"></i>
+        <a href="interFun_reservas.php">
+          <li>
+            <i class="large material-icons">dashboard</i>
+            Reserva
         </a>
-        <p>
-          Site desenvolvido pela equipe La Casa Muables, 2020.</p>
-      </footer>
-    </nav>
+        </li>
+      </ul>
+      <ul>
+        <a href="Interface_Funcionário_Entrega.php">
+          <li>
+            <i class="large material-icons">dashboard</i>
+            Entregas
+        </a>
+        </li>
+      </ul>
+      <ul>
+        <a href="interFun_montagem.php">
+          <li>
+            <i class="large material-icons">dashboard</i>
+            Montagem
+        </a>
+        </li>
+      </ul>
+    </div>
+    <footer class="footer">
+      <a href="https://www.facebook.com/casamoveisvr/">
+        <i class="fa fa-facebook-square" style="font-size:24px"></i>
+      </a>
+      <p>
+        Site desenvolvido pela equipe La Casa Muables, 2020.</p>
+    </footer>
+  </nav>
+
     <!---->
     <main>
     <table class="table">

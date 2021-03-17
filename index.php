@@ -51,7 +51,7 @@
 
       <!---->
       <ul>
-        <a href="Cadastro.html">
+        <a href="cadastro.html">
           <li>
             <i class="medium material-icons">assignment</i>
             Cadastro

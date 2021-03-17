@@ -47,7 +47,7 @@
 
     <div class="menuopcoes">
       <ul>
-        <a href="Interface_Funcionário_Catálogo.php">
+        <a href="interFun_cat.php">
           <li id="selecionado">
             <i class="large material-icons">assignment_ind</i>
             Catálogo
@@ -55,7 +55,7 @@
         </li>
       </ul>
       <ul>
-        <a href="Interface_Funcionário_Reservas.php">
+        <a href="interFun_reservas.php">
           <li>
             <i class="large material-icons">dashboard</i>
             Reserva
@@ -71,7 +71,7 @@
         </li>
       </ul>
       <ul>
-        <a href="Interface_Funcionário_Montagem.php">
+        <a href="interFun_montagem.php">
           <li>
             <i class="large material-icons">dashboard</i>
             Montagem
