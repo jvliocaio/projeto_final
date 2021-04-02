@@ -257,27 +257,27 @@
         </li>
         <li>
           <input type="radio" id="tab4" class="rd_tab" name="tabs" checked="checked">
-          <label for="tab4" class="tab_label">Banner Promocional</label>
+          <label for="tab4" class="tab_label">Inserir Categorias</label>
           <div class="tab-content">
             <article>
-              <form action="Catalogo.php" method="POST">
+              <form action="./php/crud_Type.php" method="POST">
                 <fieldset>
-                  <br>
-                  <label for="imgbanner">
-                    Imagem do Banner:</label>
-                  <input type="file" id="img" name="img" accept="image/*" multiple="multiple">
-                  <br>
+                  
+                <label> Categoria: </label>
+                <input type="text" id="tCat" name="tCat">
+                              <br>
 
-                  <br>
-                  <button type="submit" id="submit" value="Cadastrar">
-                    Cadastrar
-                  </button>
+                  <button type="submit" id="submit" value="Cadastrar">Cadastrar</button>
+
+                  <input type="hidden" name="acao" value="criar_categoria">
               </form>
               </fieldset>
               <br>
-              <a href="admcatalogo.html">
-                <button>
-                  < </button>voltar </a> </article> </div> </li> </ul> </div> <!-- Slide -->
+                  
+              </article> </div> </li> </ul> </div> 
+                  
+                  
+                  <!-- Slide -->
                     <header>
                       <div class="slider">
                         <img src="img/promoc1.png" alt="imagem01" title="imagem01" />
